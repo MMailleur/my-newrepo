@@ -31,8 +31,8 @@ with col03 :
 
 col1,col2,col3 = st.columns([6,1,4])
 with col3:
-    bar = st.progress(st.session_state["Goodanswer"],"Good answer" )
-    st.header("What do you :red[think] ?")
+    # bar = st.progress(st.session_state["Goodanswer"],"Good answer" )
+    # st.header("What do you :red[think] ?")
 
     if st.session_state.label == 0 :
         label_val = data_true["items"][st.session_state.randint][4]
